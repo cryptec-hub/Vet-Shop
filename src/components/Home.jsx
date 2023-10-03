@@ -56,19 +56,19 @@ const Home = () => {
               />
             ))}
           </div>
-          <div className="mt-32 flex flex-wrap items-center">
-            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
+          <div className="mt-32 flex flex-wrap items-center sm:justify-center">
+            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12 lg:block flex flex-col items-center">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
                 <UsersIcon className="h-6 w-6 text-blue-gray-900" />
               </div>
               <Typography
                 variant="h3"
-                className="mb-3 font-bold"
+                className="mb-3 font-bold sm:text-center sm:items-center"
                 color="blue-gray"
               >
                 Working with us is a pleasure
               </Typography>
-              <Typography className="mb-8 font-normal text-blue-gray-500">
+              <Typography className="mb-8 font-normal text-blue-gray-500 sm:text-center sm:justify-center">
                 Compassionate Care for Your Furry Friends: Welcome to Nyari Vet
                 – Your Trusted Partner in Pet Health. We provide expert
                 veterinary services for dogs, cats, and farm animals, ensuring

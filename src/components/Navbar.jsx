@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav
       className={`bg-black rounded-md ${
-        menuOpen ? "fixed inset-0 h-2/5 overflow-y-auto top-0" : "relative"
+        menuOpen ? "fixed inset-0 h-[2/5] overflow-y-auto top-0" : "relative"
       } transition-all ease-in-out duration-300 z-50`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
