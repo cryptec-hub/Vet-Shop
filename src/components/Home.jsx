@@ -41,10 +41,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="-mt-32 bg-transparent px-4 pb-20 pt-4">
+      <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 text-black">
-            {featuresData.map(({ color, title, icon, description }) => (
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {featuresData.map(({ title, color, icon, description }) => (
               <FeatureCard
                 key={title}
                 color={color}
@@ -58,7 +58,7 @@ const Home = () => {
           </div>
           <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-black p-3 text-center shadow-lg">
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
                 <UsersIcon className="h-6 w-6 text-blue-gray-900" />
               </div>
               <Typography
@@ -69,14 +69,14 @@ const Home = () => {
                 Working with us is a pleasure
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+                Compassionate Care for Your Furry Friends: Welcome to Nyari Vet
+                – Your Trusted Partner in Pet Health. We provide expert
+                veterinary services for dogs, cats, and farm animals, ensuring
+                their well-being and happiness.
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                Discover the highest quality care for your beloved companions
+                today!
               </Typography>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
@@ -84,7 +84,7 @@ const Home = () => {
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.jpeg"
+                    src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/02/dog-at-vet-visit.jpeg.jpg"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -92,14 +92,15 @@ const Home = () => {
                   <Typography
                     variant="h5"
                     color="blue-gray"
-                    className="mb-3 font-bold"
+                    className="mb-3 font-bold pt-4 pl-2"
                   >
                     Top Notch Services
                   </Typography>
-                  <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                  <Typography className="font-normal text-blue-gray-500 pb-4 px-2">
+                    Whether you have a beloved dog or cat needing routine
+                    check-ups or farm animals like cows, pigs, goats, and sheep
+                    requiring urgent veterinary attention, we are here to serve
+                    you
                   </Typography>
                 </CardBody>
               </Card>
