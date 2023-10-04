@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to={"/"}>
               <img
-                src="../src/assets/logo.png"
+                src="https://i.postimg.cc/X7ssDBff/logo.png"
                 alt="Nyari Vet Logo"
                 className="h-12 w-17"
               />
