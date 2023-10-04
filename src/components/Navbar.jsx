@@ -104,10 +104,10 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="/about"
+              href="/profile"
               className="text-white block hover:bg-gray-200 px-3 py-2 rounded-md text-base font-medium"
             >
-              About
+              Profile
             </a>
             <a
               href="/services"
