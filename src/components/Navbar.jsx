@@ -17,35 +17,35 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <a href="/" className="text-white text-2xl font-bold">
+            <Link to={"/"} className="text-white text-2xl font-bold">
               Nyari Vet
-            </a>
+            </Link>
           </div>
           <div className="hidden sm:ml-6 sm:flex">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-white hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
             >
               Home
-            </a>
-            <a
-              href="/about"
+            </Link>
+            <Link
+              to="/profile"
               className="text-white hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
             >
-              About
-            </a>
-            <a
-              href="/services"
+              Profile
+            </Link>
+            <Link
+              to="/services"
               className="text-white hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
             >
               Services
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="text-white hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
-            </a>
+            </Link>
           </div>
           <div className="sm:hidden overflow-hidden">
             <button
