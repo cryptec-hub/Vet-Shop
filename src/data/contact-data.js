@@ -6,22 +6,22 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Premium Veterinary Services",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Our team of highly skilled professionals is committed to delivering exceptional care, ranging from regular check-ups to specialized treatments. Your pet deserves the best, and that's precisely what we offer",
   },
   {
-    title: "Grow Your Market",
+    title: "Nurturing Your Pet's Growth",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Our comprehensive services are designed to support your pet's overall health and happiness. Whether it's dietary guidance, behavior counseling, or medical attention, we're here to foster your pet's development.",
   },
   {
-    title: "Launch Time",
+    title: "Embark on Wellness",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "It's time to prioritize your pet's health and happiness! We provide a range of tailored services to cater to your pet's unique needs, ensuring they receive the care and love they deserve at every stage of their journey",
   },
 ];
 
