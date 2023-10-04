@@ -7,6 +7,39 @@ import {
 } from "@heroicons/react/24/solid";
 
 const Profile = () => {
+  const services = [
+    {
+      title: "Artificial insemination",
+      description:
+        "Improve heat detection  and insemination success with Nyari Veterinary precise recommendations from our experienced veterinarians.",
+      icon: "fas fa-stethoscope",
+      image:
+        "https://www.shutterstock.com/image-photo/veterinarian-preparing-tools-artificial-insemination-600w-2119590773.jpg", // Add the image file name
+    },
+    {
+      title: "Animal Identification",
+      description:
+        "For all your visual and electronic animal tagging needs, contact us today!	We offer indelible ear tags that are tamper free, specialize in injectable microchips andare experts in microchipping",
+      icon: "fas fa-syringe",
+      image: "https://www.animaltracker.co.uk/idcard/images/cat1.jpg",
+    },
+    {
+      title: "Emergency Care",
+      description:
+        "24/7 emergency care for your pets. Our team is always ready to provide immediate medical attention.",
+      icon: "fas fa-ambulance",
+      image:
+        "https://media.istockphoto.com/id/507583006/photo/cute-border-collie-puppy-with-an-emergency-kit.jpg?s=612x612&w=0&k=20&c=Gw_zgbKXtm_-GlehR-lF0dC1pXTq_fTqC_GH_z2CSII=", // Add the image file name
+    },
+    {
+      title: "Pet Euthanasia",
+      description:
+        "Safe and comfortable pet boarding services. Your pets will feel at home even when you're away.",
+      icon: "fas fa-home",
+      image:
+        "https://images.ctfassets.net/4dmg3l1sxd6g/4fOY5B8n3w0YmLWfiji8zQ/ee885117bcce4e75b0efeed2c55007ac/VetReal_euthanasia_header.png_-_en", // Add the image file name
+    },
+  ];
   return (
     <>
       <>
@@ -26,7 +59,7 @@ const Profile = () => {
                           src="https://images.unsplash.com/photo-1535930749574-1399327ce78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80"
                           alt="Profile picture"
                           variant="circular"
-                          className="h-full w-full shadow-xl"
+                          className="h-full w-full shadow-xl rounded-xl"
                         />
                       </div>
                     </div>
@@ -76,6 +109,35 @@ const Profile = () => {
           </div>
         </section>
       </>
+      <div className="bg-gray-100 py-12">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-semibold text-center mb-8">
+            What We Are Best At.
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300 hover:shadow-2xl"
+              >
+                <div className="flex items-center justify-center mb-4 text-center">
+                  <img
+                    src={`${service.image}`} // Assuming images are in the "images" folder
+                    alt={service.title}
+                    className="w-16 h-16 object-cover rounded-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-center">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600 text-center">
+                  {service.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </>
   );
 };

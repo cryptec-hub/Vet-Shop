@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Profile from "./components/Profile";
 import Contact from "./components/Contact";
 import Layout from "./components/Layout";
+import VetServices from "./components/Services";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/services" exact element={<VetServices />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
