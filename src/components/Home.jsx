@@ -63,12 +63,12 @@ const Home = () => {
               </div>
               <Typography
                 variant="h3"
-                className="mb-3 font-bold sm:text-center sm:items-center"
+                className="mb-3 font-bold sm:text-center"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                <p className="text-center">Working with us is a pleasure</p>
               </Typography>
-              <Typography className="mb-8 font-normal text-blue-gray-500 sm:text-center sm:justify-center">
+              <Typography className="mb-8 font-normal text-blue-gray-500 text-center sm:justify-center">
                 Compassionate Care for Your Furry Friends: Welcome to Nyari Vet
                 – Your Trusted Partner in Pet Health. We provide expert
                 veterinary services for dogs, cats, and farm animals, ensuring
