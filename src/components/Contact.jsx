@@ -1,12 +1,6 @@
 import React from "react";
 import { contactData } from "../data";
-import {
-  Card,
-  Typography,
-  Button,
-  Input,
-  Textarea,
-} from "@material-tailwind/react";
+import { Card, Typography } from "@material-tailwind/react";
 import PageTitle from "../widgets/layout/page-title";
 
 const Contact = () => {
