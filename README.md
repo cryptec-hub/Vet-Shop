@@ -2,7 +2,7 @@
 
 Welcome to Nyari Vet Shop, your trusted partner for pet health and happiness in Kenya.
 
-![Nyari Vet Shop Logo](https://yourwebsite.com/path-to-logo.png)
+![Nyari Vet Shop Logo](https://i.postimg.cc/X7ssDBff/logo.png)
 
 ## Table of Contents
 - [About](#about)
@@ -34,7 +34,7 @@ Explore our comprehensive services tailored to your pet's needs:
   - Calicivirus: Characterized by oral and nasal ulcers and respiratory infections
   - Panleukopenia: Life-threatening blood cell deficiencies, leading to vomiting, diarrhea, dehydration, and brain damage in kittens.
 
-![Pet Vaccinations](https://yourwebsite.com/path-to-vaccinations-image.png)
+![Pet Vaccinations](https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/02/dog-at-vet-visit.jpeg.jpg)
 
 ## Contact
 
@@ -45,13 +45,12 @@ Connect with us for personalized veterinary care, pet nutrition, grooming, and m
 - **Email:** info@nyarivetshop.com
 - **Website:** [https://nyarivetshop.netlify.app/](https://nyarivetshop.netlify.app/)
 
-![Contact Us]([https://yourwebsite.com/path-to-contact-image.png](https://nyarivetshop.netlify.app/))
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/yourusername/nyari-vet-shop.git`
+1. Clone this repository: `git clone https://github.com/cryptech-hub/nyari-vet-shop.git`
 2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+3. Start the development server: `npm run dev`
 
 ## Contributing
 
